@@ -1,70 +1,70 @@
 # 🧪 Physics Simulations App
 
-¡Bienvenido a la app interactiva de simulaciones físicas! 🚀
+Welcome to the interactive physics simulations app! 🚀
 
-Este proyecto te permite explorar y visualizar cuatro sistemas físicos clásicos de manera gráfica y sencilla:
+This project lets you explore and visualize four classic physical systems in a fun and graphical way:
 
-1. **Simulación de Muelle** 🪀
-2. **Simulación de Péndulo** 🕰️
-3. **Doble Péndulo** 🌀
-4. **Ondas 2D** 🌊
+1. **Spring Simulation** 🪀
+2. **Pendulum Simulation** 🕰️
+3. **Double Pendulum** 🌀
+4. **2D Waves** 🌊
 
 ---
 
-## 🚦 ¿Cómo empezar?
+## 🚦 Getting Started
 
-### 1. **Instala las dependencias**
+### 1. **Install the dependencies**
 
-Asegúrate de tener Python 3.8+ instalado. Luego, instala las librerías necesarias:
+Make sure you have Python 3.8+ installed. Then, install the required libraries:
 
 ```bash
 pip install pygame pygame_gui numpy
 ```
 
-### 2. **Ejecuta la app principal**
+### 2. **Run the main app**
 
 ```bash
 python main.py
 ```
 
-Se abrirá una ventana con un menú para elegir la simulación que quieras probar. ¡Haz clic en el botón correspondiente y disfruta! 😃
+A window will open with a menu to choose the simulation you want to try. Just click the corresponding button and enjoy! 😃
 
 ---
 
-## 🕹️ Controles y detalles de cada simulación
+## 🕹️ Controls & Features for Each Simulation
 
-### 🪀 **Muelle**
-- Ajusta la masa, constante del resorte y gravedad con sliders.
-- Botones para iniciar/detener y reiniciar.
+### 🪀 **Spring**
+- Adjust mass, spring constant, and gravity with sliders.
+- Buttons to start/stop and reset.
 
-### 🕰️ **Péndulo**
-- Controla la masa con un slider.
-- Botones para iniciar/detener y reiniciar.
+### 🕰️ **Pendulum**
+- Control the mass with a slider.
+- Buttons to start/stop and reset.
 
-### 🌀 **Doble Péndulo**
-- Controla la masa del segundo péndulo con un slider.
-- Botones para iniciar/detener y reiniciar.
-- ¡Observa trayectorias caóticas!
+### 🌀 **Double Pendulum**
+- Control the mass of the second pendulum with a slider.
+- Buttons to start/stop and reset.
+- Watch chaotic trajectories!
 
-### 🌊 **Ondas 2D**
-- Haz clic para crear perturbaciones en la superficie.
-- Pulsa `Espacio` para pausar/reanudar.
-- Pulsa `R` para reiniciar la simulación.
+### 🌊 **2D Waves**
+- Click to create disturbances on the surface.
+- Press `Space` to pause/resume.
+- Press `R` to reset the simulation.
 
 ---
 
-## 📦 Estructura del proyecto
+## 📦 Project Structure
 
 ```
-main.py              # Menú principal
-spring.py            # Simulación de muelle
-pendulum.py          # Simulación de péndulo
-wave_simulate.py     # Simulación de ondas 2D
-double_pendulum.py   # Simulación de doble péndulo
+main.py              # Main menu
+spring.py            # Spring simulation
+pendulum.py          # Pendulum simulation
+wave_simulate.py     # 2D waves simulation
+double_pendulum.py   # Double pendulum simulation
 ```
 
 ---
 
-## 📝 Licencia
+## 📝 License
 
-Distribuido bajo la licencia MIT. ¡Úsalo, modifícalo y comparte! 🤝
+Distributed under the MIT License. Use it, modify it, and share it! 🤝
